@@ -1,0 +1,248 @@
+/*import fonts*/
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@100 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100&display=swap');
+
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+body{
+    background:#212424; Rodrigo Torres
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+body:after{
+/*    content: '';*/
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+}
+header{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+:root{
+    --background-color : #0f83f7;
+}
+h3{
+    color: #fff;
+    font-size: 20px;
+
+}
+h1{
+    color: #fff;
+    font-size: 40px;
+}
+h2{
+    color: #fff;
+    font-size: 30px;
+}
+.iam{
+    padding: 100px 100px 100px 100px;
+    background-position: center;
+    background-color : #0f83f7;
+    background-size: cover;
+
+}
+@media(min-width:200px)and(max-width:400px){
+    body{
+        font-weight: 700;
+    }
+    .my-red a{
+        display: grid;
+        flex-grow: grow;
+
+    }
+
+}
+.iam h1{
+    padding: 50px 50px 20px 20px;
+    font-family: 'Poppins',sans-serif;
+/*    background-color: #f7e1e5;*/
+ overflow: hidden;
+
+}
+.Skills{
+    width: 100vh;
+    height: 100vh;
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+.bar{
+    width: 350px;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: 3px 20px 20px 10px;
+    border-right: 3px solid #eee;
+    border-bottom: 3px solid #eee;
+    }
+.Skills h2{
+    text-align: center;
+
+}
+.progress{
+    width: var(--w);
+    height: 100%;
+    background-color: var(--background-color);
+    border-radius: 10px;
+}
+@keyframes .progress{
+    min-width:420px;
+    0%{width: 0%}
+    100%{width:var(--w); }
+    
+
+}
+@media(min-width:400px)and(max-width:500){
+    body{
+        font-weight: 800;
+        display: flex;
+        flex:wrap;
+        background-position:cover;
+    }
+    h1{
+
+    }
+    h2{
+        font-weight: 800;
+    }
+    a{
+        font-weight: 800;
+    }
+    h3{
+        font-weight: 800;
+    }
+}
+    .my-red a{
+        display: grid;
+        flex-grow: grow;
+
+    }
+
+.Info{
+    font-family:'Poppins', sans-serif;
+    padding: 100px 100px 100px 100px;
+    background-position: center;
+    background-color: #0f83f7;
+    background-size: cover;
+
+}
+.img{
+    display: flex;
+    box-shadow: 50px 50px 50px 50px ;
+    width:100%;
+    height: 430px;
+
+
+}
+.img img{
+    width: 0px;
+    flex-grow:1 ;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+
+
+
+}
+.img img:hover{
+cursor: crosshair;
+width: 300px;
+opacity: 1;
+filter: contrast(120%);
+
+}
+.container_footer{
+    display: flex !important;
+    flex-wrap: wrap;
+/*     no quedan en una sola linea, entendiendo cuando encimarse sin perder su posicion*/
+    justify-content: space-between;
+    max-width: 1200px;
+    margin:auto;
+    margin-top: 100px;
+    box-shadow: 30px 30px 30px 30px !important;
+}
+footer{
+    width: 100%;
+    padding: 50px 50px 50px 50px;
+/*    background-color: #d6042b;*/
+background-image: url(..img);
+background-size: Cover;
+}
+
+.footer img{
+    width: 130px;
+    flex-grow:1;
+    margin: 20px;
+    background-color: #212424;
+    
+}
+#img{
+     background-color: #212424;
+     display: grid;
+     flex-grow: 1;
+}
+
+.footer .group-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    justify-content: space-between;
+}
+footer .box .group-2{
+    display: flex ;
+    flex-direction: column;
+    padding: 40px;
+
+}
+footer p{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color:#fff2fc;
+    font-size: 18px;
+}
+footer h2{
+    margin-bottom: 30px;
+    color: #e6e3e5;
+    font-weight: 700px;
+}
+ .my-red a{
+    border-right: none;
+    border-radius: 30px;
+    background-color: #fff;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    justify-content: space-between;
+    font-family: 'Popins', sans-serif;
+    font-weight: 500;
+    color:#000000;
+}
+.my-red a:hover{
+    background: red;
+    transition: 0.6s ease;
+
+}
+.group-2{
+        padding: 100px;
+        margin: 100px;
+        color: #fff;
+}
